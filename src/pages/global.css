@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,500&display=swap');
+
+html, body, #__next {
+	
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: top;
+	font-family: "Rubik", sans-serif;
+
+}
+
+p {
+	text-align:center;
+}

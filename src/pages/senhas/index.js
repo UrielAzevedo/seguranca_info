@@ -1,0 +1,25 @@
+import styles from "../main.module.css"
+import Link from 'next/link'
+
+export default () => {
+
+	return(
+		<div className={styles.mainContainer}>
+			<div className={`${styles.textBox1Tittle} ${styles.tittleAfter}`}>Segurança com Senhas 💾</div>
+			<p className={styles.firstParagraph}>é fundamental criar senhas fortes e complexas. Isso significa utilizar uma combinação de letras maiúsculas e minúsculas, números e símbolos especiais, como @, #, $ e %. Essa diversidade de caracteres torna a senha mais resistente a ataques automatizados que tentam diversas combinações possíveis</p>
+			<p className={`${styles.paragraphSubPage}`}>Outro fator importante na criação de senhas seguras é o comprimento. Senhas mais longas tendem a ser mais seguras, sendo recomendado o uso de pelo menos 12 caracteres. Uma técnica eficaz é utilizar frases de senha, que combinam várias palavras, números e símbolos, resultando em uma sequência longa e complexa. Por exemplo, a frase "C4feC0mLe1t3!" é difícil de adivinhar e oferece um bom nível de segurança
+			</p>
+			<p className={`${styles.paragraphSubPage}`}>
+			Além da criação de senhas fortes, a gestão dessas senhas é igualmente importante. Uma prática recomendada é não reutilizar a mesma senha para diferentes contas. Isso evita que, caso uma senha seja comprometida, o acesso a outras contas também seja afetado.
+			</p>
+			<p className={styles.paragraphSubPage}>A troca periódica de senhas também é uma medida importante para manter a segurança. Alterar as senhas regularmente minimiza o risco de que uma senha comprometida permaneça em uso por muito tempo. Além disso, é prudente ativar a autenticação em duas etapas sempre que possível. Essa medida adiciona uma camada extra de segurança, exigindo um segundo fator de verificação além da senha, como um código enviado para o celular.
+			</p>
+
+			<iframe className={styles.videoContainer} width="420" height="345" src="https://www.youtube.com/embed/8zcrg23K-M8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen>
+			</iframe>
+
+			<Link href="/" className={`${styles.homeBtn} ${styles.tittleAfter}`}>Home</Link>
+		</div>		
+	)
+
+}

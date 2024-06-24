@@ -1,0 +1,107 @@
+.mainContainer {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: top;
+}
+
+.tittle {
+	margin-top: 40px;
+	font-size: 50px;
+	position: relative;
+}
+
+.tittleAfter::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+	width: 100%;
+	height: 4px;
+	background-color: black;
+	transform: scaleX(0);
+	transform-origin: bottom right;
+	transition: transform 0.3s ease-out;
+}
+
+.tittleAfter:hover::after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+.textBox1Tittle {
+	margin-top: 100px;
+	width: auto;
+	height: auto;
+	font-size: 40px;
+	text-align: center;
+	position: relative
+}
+
+.textBox1 {
+	margin-top: 25px;
+	width: 75%;
+	height: auto;
+}
+
+.liTittle {
+	text-align: center;
+	align-items: center;
+	margin: 20px;
+	margin-top: 40px;
+	font-size: 25px;
+}
+
+#ul{
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0px;
+	list-style-type: none;
+	margin-bottom: 30px;
+}
+
+#li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.liAplicacoes {
+	text-align: center;
+	margin: 30px;
+	font-size: 25px;
+	list-style-type: none;
+	position: relative;
+	text-decoration: none;
+	color: black;
+}
+
+.firstParagraph{
+	margin-top: 60px;
+	font-size: 20px;
+}
+
+.paragraphSubPage{
+	font-size: 20px;
+}
+
+.homeBtn{
+	margin-top: 60px;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	position: relative;
+}
+
+.videoContainer{
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
