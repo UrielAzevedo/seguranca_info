@@ -16,7 +16,11 @@ export default () => {
 				Outra prática importante é a implementação de controles de acesso adequados. Isso inclui definir permissões de usuário de acordo com suas necessidades reais de acesso, limitando o acesso a informações sensíveis apenas a indivíduos que realmente precisam delas. A gestão eficaz de identidades e acessos ajuda a prevenir a exposição acidental ou intencional de dados sensíveis.
 			</p>
 
+			<iframe className={styles.videoContainer} width="420" height="345" src="https://www.youtube.com/embed/aZxrDHVhwYM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen>
+			</iframe>
+
 			<Link href="/" className={`${styles.homeBtn} ${styles.tittleAfter}`}>Home</Link>
+
 		</div>		
 	)
 

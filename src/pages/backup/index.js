@@ -18,6 +18,9 @@ Um backup eficiente envolve a cópia dos dados para um local seguro e separado d
 			<p className={styles.paragraphSubPage}>
 				Armazenar os backups em locais seguros e diversificados é uma prática recomendada para aumentar a segurança. Isso inclui a utilização de locais físicos externos, como servidores em outras instalações, bem como soluções de armazenamento na nuvem. A distribuição geográfica dos backups protege contra desastres locais, como incêndios ou inundações, que poderiam comprometer tanto os dados principais quanto os backups armazenados no mesmo local.
 			</p>
+			
+			<iframe className={styles.videoContainer} width="420" height="345" src="https://www.youtube.com/embed/PcKos2w5u6Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen>
+			</iframe>
 
 			<Link href="/" className={`${styles.homeBtn} ${styles.tittleAfter}`}>Home</Link>
 		</div>		

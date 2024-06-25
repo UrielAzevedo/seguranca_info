@@ -19,6 +19,9 @@ Nas redes sociais, a gestão das configurações de privacidade é particularmen
 A criptografia é outra ferramenta vital para proteger a privacidade dos dados. Ao criptografar informações tanto em repouso quanto em trânsito, garante-se que apenas pessoas com as chaves de descriptografia corretas possam acessar os dados. Isso é especialmente importante para a proteção de dados sensíveis transmitidos pela internet ou armazenados em servidores.
 			</p>
 
+			<iframe className={styles.videoContainer} width="420" height="345" src="https://www.youtube.com/embed/dEt8x0ILp8o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen>
+			</iframe>
+
 			<Link href="/" className={`${styles.homeBtn} ${styles.tittleAfter}`}>Home</Link>
 		</div>		
 	)

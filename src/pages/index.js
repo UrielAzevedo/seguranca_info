@@ -15,7 +15,7 @@ export default () => {
 				<p> 
 			Dessa forma a segurança da informação é um termo usado para referir-se ao conjunto de estratégias adotadas para proteger dados contra ameaças, riscos e ataques cibernéticos, que visam comprometer a integridade, confidencialidade e disponibilidade de informações e sistemas.
 				</p> 	
-				<div className={`${styles.textBox1Tittle} ${styles.tittleAfter}`}>Pilares da segurança da Informação 🏛️			</div>
+				<div className={`${styles.textBox1Tittle} ${styles.tittleAfter}`}>Pilares da Segurança da Informação 🏛️			</div>
 				<ul id={styles.ul}>
 					<li id={styles.li}>
 						<div className={styles.liTittle}>Confidencialidade</div>
@@ -52,15 +52,16 @@ export default () => {
 			<div className={`${styles.textBox1Tittle} ${styles.tittleAfter}`}>Aplicando a Segurança da Informação! 🔐</div>
 			<ul id={styles.ul}>
 			    <Link href="/senhas" className={`${styles.liAplicacoes} ${styles.tittleAfter}`}>Utilize senhas fortes e seguras</Link>
-				<Link href="/fishing" className={`${styles.liAplicacoes} ${styles.tittleAfter}`}>Preste atenção com ataques de fishing, não divulgue seus dados em sites não confiáveis</Link>
-				<Link href="/software" className={`${styles.liAplicacoes} ${styles.tittleAfter}`}>Mantenha softwares sempre atualizados para evitar vulnerabilidade</Link>
+				<Link href="/fishing" className={`${styles.liAplicacoes} ${styles.tittleAfter}`}>Preste atenção com ataques de phishing, não divulgue seus dados em sites não confiáveis</Link>
+				<Link href="/software" className={`${styles.liAplicacoes} ${styles.tittleAfter}`}>Mantenha softwares sempre atualizados para evitar vulnerabilidades</Link>
 				<Link href="/backup" className={`${styles.liAplicacoes} ${styles.tittleAfter}`}>Faça backup de dados</Link>
 				<Link href="/privacidade" className={`${styles.liAplicacoes} ${styles.tittleAfter}`}>Ajuste configurações de privacidade e acesso a dados nas rededs socias</Link>
 			</ul>
 
-			
-		</div>
+			<div className={`${styles.tittleAfter} ${styles.textBox1Tittle}`}>Teste seu conhecimento ✍️</div>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLScGyJdI1BtEawTzLekYyzHHqwCHvD9b6Y4RTC_7kwQxQccwrw/viewform" target="_blank" rel="noopener noreferrer" className={`${styles.linkQuiz} ${styles.tittleAfter}`}> Quiz! </a>
 
+		</div>
 
 	)
 	
