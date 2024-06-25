@@ -10,7 +10,7 @@ export default () => {
 			<div className={`${styles.textBox1Tittle} ${styles.tittleAfter}`}>O que é? 🤔 </div>
 			<div className={styles.textBox1}> 
 				<p>
-			Você sabe o que é a Segurnaça da Informação? Atualmente a quantidade de dados que trafega na internet é a gigantesca, des de dados confidenciais como senhas e email à metadados, como cookies de nagador usados, região de onde se conecta a internet, histórico de pesquisa, etc.. 
+			Você sabe o que é a Segurnaça da Informação? Atualmente a quantidade de dados que trafega na internet é a gigantesca, desde dados confidenciais como senhas e email à metadados, como cookies de navegador usados, região de onde se conecta a internet, histórico de pesquisa, etc.. 
 				</p>
 				<p> 
 			Dessa forma a segurança da informação é um termo usado para referir-se ao conjunto de estratégias adotadas para proteger dados contra ameaças, riscos e ataques cibernéticos, que visam comprometer a integridade, confidencialidade e disponibilidade de informações e sistemas.
