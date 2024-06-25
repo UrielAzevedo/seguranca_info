@@ -55,7 +55,7 @@ export default () => {
 				<Link href="/fishing" className={`${styles.liAplicacoes} ${styles.tittleAfter}`}>Preste atenção com ataques de phishing, não divulgue seus dados em sites não confiáveis</Link>
 				<Link href="/software" className={`${styles.liAplicacoes} ${styles.tittleAfter}`}>Mantenha softwares sempre atualizados para evitar vulnerabilidades</Link>
 				<Link href="/backup" className={`${styles.liAplicacoes} ${styles.tittleAfter}`}>Faça backup de dados</Link>
-				<Link href="/privacidade" className={`${styles.liAplicacoes} ${styles.tittleAfter}`}>Ajuste configurações de privacidade e acesso a dados nas rededs socias</Link>
+				<Link href="/privacidade" className={`${styles.liAplicacoes} ${styles.tittleAfter}`}>Ajuste configurações de privacidade e acesso a dados nas redes socias</Link>
 			</ul>
 
 			<div className={`${styles.tittleAfter} ${styles.textBox1Tittle}`}>Teste seu conhecimento ✍️</div>
